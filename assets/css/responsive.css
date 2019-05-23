@@ -1,0 +1,533 @@
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px) {
+    .cart-wrapper {
+        left: -190px;
+    }
+    .search-box {
+        left: -140px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .single-slider {
+        padding-top: 210px;
+        min-height: 800px;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 42px;
+    }
+
+    .search-box form input {
+        max-width: 200px;
+    }
+
+    .cart-wrapper {
+        left: -140px;
+        width: 360px;
+    }
+
+    .search-box {
+        left: -60px;
+    }
+
+    .video-text h2 {
+        font-size: 42px;
+    }
+
+    .happy-client-footer p {
+        font-size: 15px;
+        margin-right: 0px;
+        line-height: 20px;
+    }
+
+    .video-wrapper iframe {
+        min-height: 375px;
+    }
+
+    .work-left h4 {
+        font-size: 42px;
+    }
+
+    .portfolio-menu button {
+        margin-right: 0px;
+    }
+
+    .team-icon a {
+        margin-right: 2px;
+    }
+
+    section.team-area .row .col-lg-4 {
+        padding: 2px;
+    }
+    .insta-hover-content {
+        font-size: 20px;
+    }
+    .about-us-vdo iframe {
+        min-height: 370px;
+    }
+
+    /* single profile page */
+    .single-hobbie {
+        background: #F1F1F1;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        padding-top: 25px;
+        margin-bottom: 20px;
+    }
+    .resume-title.lg-content::after {
+        height: 655px;
+    }
+    .resume-title:after {
+        height: 585px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .single-slider {
+        padding-top: 180px;
+        min-height: 700px;
+    }
+
+    .slider-title h1 {
+        font-size: 52px;
+    }
+
+    .slider-title h2 {
+        font-size: 38px;
+    }
+
+    nav ul li:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    nav ul li.round-border {
+        margin-right: 15px;
+    }
+
+    .cart-wrapper {
+        left: -220px;
+    }
+
+    .search-box {
+        left: -160px;
+    }
+
+    nav {
+        padding-left: 25px;
+    }
+
+    .single-about {
+        padding: 40px 100px;
+        padding-bottom: 0;
+    }
+
+    .about-wrapper {
+        padding: 10px 30px;
+        padding-bottom: 40px;
+    }
+
+    .happy-client-box {
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+    .work-left h4 {
+        font-size: 32px;
+    }
+
+    .work-right p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    section.team-area .row {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+
+    section.team-area .row .col-md-4 {
+        padding: 2px;
+    }
+
+    .team-wrapper {
+        margin-bottom: 190px;
+    }
+    .team-icon a {
+        margin-right: 0;
+    }
+    .team-area .slick-list.draggable {
+        padding-bottom: 10px !important;
+    }
+
+    .counter-amount p {
+        font-size: 45px;
+    }
+
+    .counter-text p {
+        font-size: 15px;
+    }
+
+    .single-counter {
+        min-height: 90px;
+        padding-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    .single-footer-wid {
+        margin-bottom: 40px;
+    }
+
+    .footer-wid-area {
+        padding-bottom: 10px;
+    }
+    .about-us-vdo iframe {
+        min-height: 418px;
+    }
+
+    /* single profile page */
+    .single-profile-pic {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .single-profile-pic img {
+        max-width: 100%;
+    }
+    .single-profile-slider.slider-area .single-slider {
+        padding-top: 180px;
+        min-height: 600px;
+    }
+    .single-hobbie {
+        height: 85px;
+        width: 85px;
+        padding-top: 20px;
+    }
+    .resume-title.lg-content::after {
+        height: 750px;
+    }
+    .resume-title:after {
+        height: 680px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .header-logo {
+        padding-top: 5px;
+    }
+
+    .single-slider {
+        padding-top: 80px;
+        min-height: 380px;
+    }
+
+    section.about-area {
+        margin-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .slider-title {
+        margin-bottom: 25px;
+    }
+
+    .slider-title h2 {
+        font-size: 28px;
+    }
+
+    .slider-title h1 {
+        font-size: 32px;
+    }
+
+    .subscribe-box p {
+        color: #fff;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .subscribe-box form input {
+        padding: 10px;
+        width: 180px;
+        margin-right: 0;
+    }
+
+    .subscribe-box form button {
+        padding: 10px 10px;
+    }
+
+    .single-about {
+        padding: 10px 0;
+    }
+
+    .about-wrapper {
+        padding: 25px 30px;
+    }
+
+    .video-text h2 {
+        font-size: 32px;
+    }
+
+    .happy-client-footer p.client-amount {
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .happy-client-footer p {
+        font-size: 14px;
+        margin-right: 5px;
+        line-height: 20px;
+    }
+
+    .happy-client-footer a.haapy-client-play {
+        margin-left: 0;
+    }
+
+    .video-wrapper iframe {
+        min-height: 280px;
+    }
+
+    .single-counter {
+        border-right: none;
+        margin-bottom: 10px;
+    }
+
+    .counter-amount p {
+        font-size: 42px;
+    }
+
+    section.counter-area {
+        padding-top: 0;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    .work-left h4 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .work-right {
+        display: none;
+    }
+
+    .portfolio-menu {
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .portfolio-menu button {
+        margin-right: 0;
+    }
+
+    .section-title h3 {
+        font-size: 32px;
+    }
+
+    section.team-area .row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section.team-area .row .col-md-4 {
+        padding: 2px;
+    }
+
+    .team-wrapper {
+        margin-bottom: 190px;
+    }
+
+    .single-brand {
+        text-align: center;
+    }
+
+    .team-icon a {
+        margin-right: 0;
+    }
+
+    .team-content {
+        padding-top: 36px;
+    }
+
+    .single-brand img {
+        display: inline-block;
+    }
+
+    .single-footer-wid {
+        margin-bottom: 30px;
+    }
+
+    .footer-wid-area {
+        padding-bottom: 10px;
+    }
+
+    .footer-copyright p {
+        font-size: 12px;
+    }
+
+    section.team-area {
+        padding-bottom: 20px;
+    }
+    .share-content {
+        width: 220px;
+    }
+    .single-replied-comment {
+        padding-left: 30px;
+    }
+    .about-us-single-det {
+        margin-bottom: 40px;
+    }
+    .single-team-2 .team-content p {
+        margin-bottom: 5px;
+    }
+    .single-team-2 .team-content {
+        padding: 10px 15px;
+        padding-left: 15px;
+    }
+    .single-team-2 .team-icon a {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .team-area .slick-list.draggable {
+        padding-bottom: 0px !important;
+    }
+    .blog-area button.slick-arrow {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .contact_area .section-title h4 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .contact_area .section-title h6 {
+        margin-bottom: 0;
+    }
+    .map {
+        height: 500px;
+        margin-top: -80px;
+    }
+
+    /* single profile page */
+    .single-profile-pic {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .single-profile-pic img {
+        max-width: 100%;
+    }
+    .single-profile-slider.slider-area .single-slider {
+        padding-top: 120px;
+        min-height: 450px;
+    }
+    .single-hobbie {
+        height: 80px;
+        width: 80px;
+        padding-top: 20px;
+    }
+    .cv-downlaod {
+        margin-bottom: 50px;
+    }
+    .single-hobbie i {
+        font-size: 18px;
+    }
+    .single-hobbie span {
+        font-size: 13px;
+    }
+    .resume-title::after, .resume-title::before{
+        display: none;
+    }
+    .resume-title {
+        margin-bottom: 40px;
+    }
+    .single-resume h4:after{
+        display: none;
+    }
+    section.counter-area.single-profile {
+        padding: 70px 0;
+    }
+    .single-work-process {
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 120px;
+    }
+    .process-icon:after {
+        content: '\f309';   
+        right: auto;
+        left: 50%;
+        top: auto;
+        bottom: -70px;
+    }
+    .resume-title {
+        margin-bottom: 0px;
+    }
+    .single-profile-slider.slider-area .slick-list.draggable {
+        padding-bottom: 200px;
+    }
+    .single-team-2 .team-content .team-icon {
+        margin-bottom: 0;
+        display: none;
+    }
+    .contact_wrap {
+        padding-top: 30px;
+    }
+}
+
+/* extra small phones, 360px and up) */
+@media (max-width: 399.98px) {
+    .single-hobbie {
+        height: 58px;
+        width: 58px;
+        padding-top: 8px;
+    }
+    .single-hobbie i {
+        font-size: 16px;
+    }
+    .single-hobbie span {
+        font-size: 12px;
+    }
+    .single-profile-pic {
+        margin-top: 60px;
+    }
+    .single-profile-slider.slider-area .single-slider {
+        padding-top: 120px;
+        min-height: 390px;
+    }
+    .single-profile-slider.slider-area .slick-list.draggable {
+        padding-bottom: 140px;
+    }
+    section.about-me-area .row .row .col-3 {
+        padding: 0 10px;
+    }
+    .about-us-text {
+        padding: 40px 30px;
+    }
+    .single-team-2 .team-content .team-icon {
+        display: none;
+    }
+    .contact_wrap {
+        padding-top: 0;
+    }
+    .subscribe-box form input {
+        margin-bottom: 15px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .team-content {
+        padding-top: 45px;
+    }
+
+    section.team-area {
+        padding-bottom: 0px;
+    }
+
+}

@@ -1,0 +1,58 @@
+/*Aniamte it effects*/
+
+.drag-up {
+	transform: translateY(50px);
+	opacity: 0;
+	animation: drag-up 0.5s ease forwards;
+	animation-delay: .3s;
+}
+
+@keyframes drag-up {
+	to { 
+		transform: translateY(0); 
+		opacity: 1;
+	}
+}
+
+.drag-down {
+	transform: translateY(-50px);
+	opacity: 0;
+	animation: drag-down 0.5s ease forwards;
+	animation-delay: .3s;
+}
+
+@keyframes drag-down {
+	to { 
+		transform: translateY(0); 
+		opacity: 1;
+	}
+}
+
+
+.drag-left {
+	opacity: 0;
+	transform: translateX(-50px);
+	animation: drag-left .8s ease forwards;
+	animation-delay: .3s;
+}
+
+@keyframes drag-left {
+	to { 
+		transform: translateX(0); 
+		opacity: 1;
+	}
+}
+
+.drag-right {
+	opacity: 0;
+	transform: translateX(50px);
+	animation: drag-right 0.5s ease forwards;
+	animation-delay: .3s;
+}
+
+@keyframes drag-right {
+	to { 
+		transform: translateX(0); 
+		opacity: 1;
+	}
+};
